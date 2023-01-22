@@ -7,4 +7,5 @@ client.once(Events.ClientReady, c => {
 	console.log(`正在使用 ${c.user.tag} 來登入`);
 });
 
+
 client.login(process.env.TOKEN);
